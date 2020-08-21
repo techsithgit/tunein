@@ -1,0 +1,19 @@
+
+
+@import "./../../style/scss/vars";
+
+.tag {
+  padding: 6px 10px;
+  border-radius: 10% 50%;
+  display: inline-block;
+  border-radius: 17px;
+
+
+  &.whiteTag {
+    background-color: $white;
+    border:1px solid $teal2;
+  }
+  &.blueTag {
+    background-color: $teal1;
+  }
+}

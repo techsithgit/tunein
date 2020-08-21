@@ -1,0 +1,60 @@
+@import "./../../style/scss/vars";
+
+.label {
+  &.f36 {
+    font-size: $font36;
+    font-weight: 800;
+    line-height: 40px;
+  }
+  &.f30 {
+    font-size: $font30;
+    font-weight: 800;
+    line-height: 1.13;
+  }
+
+  &.f24 {
+    font-size: $font24;
+    font-weight: 800;
+    line-height: 1.17;
+  }
+
+  &.f20 {
+    //ebold or bold
+    font-size: $font20;
+    font-weight: bold;
+
+    &.extraBold {
+      font-weight: 800;
+      line-height: 1.17;
+    }
+  }
+
+  &.f18 {
+    font-size: $font18;
+
+    &:not(.bold) {
+      line-height: 1.5;
+    }
+
+    &.bold {
+      font-weight: bold;
+    }
+  }
+
+  &.f16 {
+    font-size: $font16;
+
+    &:not(.bold) {
+      line-height: 22px;
+    }
+
+    &.bold {
+      font-weight: bold;
+    }
+  }
+
+  &.f14 {
+    font-size: $font14;
+    line-height: 22px;
+  }
+}

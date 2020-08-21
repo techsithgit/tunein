@@ -1,0 +1,35 @@
+@import "./vars";
+
+//global overrides
+
+* {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+
+.margL5{
+  margin-left: 5px;
+}
+
+.darkGray {
+  color: $darkGray;
+}
+
+.tealBlue {
+  color: $tealBlue;
+}
